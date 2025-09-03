@@ -1,0 +1,17 @@
+package Ecommerce.App.exception;
+
+//public class APIException extends RuntimeException {
+//    public APIException(String message) {
+//        super(message);
+//    }
+//}
+public class APIException extends RuntimeException {
+    private static final long serialVersionUID = 1L;
+
+    public APIException() {
+    }
+
+    public APIException(String message) {
+        super(message);
+    }
+}
